@@ -88,7 +88,7 @@ end
 function preSolve(a, b, coll)    
     if a:getUserData() == "Wall" and b:getUserData() == "p" or a:getUserData() == "p" and b:getUserData() == "Wall"  then
       
-      objects.p.life = objects.p.life - 5
+      objects.p.life = objects.p.life - 3
       
       if objects.p.life < 0 then
         deathSound:stop()
