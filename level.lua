@@ -119,7 +119,7 @@ function Level:update(dt)
 
   if levelWon then
   	nowLev = nowLev + 1
-    if nowLev == 2 then nowLev = 1 end
+    if nowLev == 4 then nowLev = 1 end
   	level = Level.create(nowLev)
   end
 
